@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 32px;
+  }
+  
+  &-title {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    i {
+      padding-right: 10px;
+    }
+  }
+}
